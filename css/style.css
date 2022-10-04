@@ -126,10 +126,6 @@ color: black;
 font-size: 27px;
 }
 
-
-
-
-
 /*chitarra*/
 #imgbello 
 {width: 23em;
@@ -179,16 +175,23 @@ margin-top: 3%;
 margin-bottom: 8%;
 }
 
+#fotocalendario
+{padding-bottom: 2em;
+padding-top: 1em}
+
+#titolocalendario
+{padding-top: 2em}
+
 
 #days
 {font-family: sans-serif}
 
 /*modulo di iscrizione*/
 #titolomodulo {padding-top: 1em; margin: auto !important;}
-.schedamodulo {margin: auto; margin-bottom: 2em;}
 .card-text {text-align: left;}
-
 .modulo {max-width: 50%; max-height: 50%;}
+.moduloiscrizione {margin-left: auto; margin-right: auto;}
+.regolamento {margin:auto}
 
 /*EVENTI*/
 /*calendario*/
@@ -249,16 +252,20 @@ padding-right: 2%;}
 #normangroup {max-width: 60px;}
 #manuelbike {max-width: 80px}
 
+/*DOCUMENTAZIONE*/
+.doctitle {margin-top: 4em} 
+.titolo-documentazione {padding-top: 2em; padding-bottom: 2em}
+.imgdocumentazione {width: 50%; margin: auto; padding: 1em}
+
 /*GENERAL*/
 .container-flex {display: flex;
                 flex-wrap: wrap;}
 
 /* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
+@media screen and (max-width: 800px) 
+{.left, .main, .right 
+  {width: 100%; /* The width is 100%, when the viewport is 800px or smaller */}
 }
-/*DOCUMENTAZIONE*/
-.titolo-documentazione {padding-top: 2em; padding-bottom: 2em}
-.imgdocumentazione {width: 50%; margin: auto; padding: 1em}
+
+
+
